@@ -1,0 +1,42 @@
+\documentclass[10pt, letterpaper, font=sourcesanspro]{simple-cl}
+
+% For public text - can be removed
+\usepackage{lipsum}
+
+% Personal information
+\name{Name}{Surname}
+\position{Occupation}
+\address{Address}
+\mobile{(+61) 000 000 000}
+\email{name.surname@email.com}
+\github{matuscvengros}
+\linkedin{matuscvengros}
+% Quote
+\quote{\enquote{We absolutely must leave room for doubt or there is no progress and no learning.} -- \textnormal{R. P. Feynman}.}
+
+% Recipient information
+\recentity{<Company>}
+\recname{<Recipient>}
+\recaddress{<Address>}
+
+\begin{document}
+% Create header and footer
+\makeclheader
+\makeclfooter
+
+\makeclrecipient
+
+{\large\mdseries Expression of Interest}\\[0.5em]
+\begin{clbody}
+	To Whom It May Concern,\newline
+	
+	\lipsum[1]
+\end{clbody}
+
+\clsection{Why am I interested in \printrecentity?}
+\begin{clbody}
+	\lipsum[1]
+\end{clbody}
+
+\makeclsignature
+\end{document}

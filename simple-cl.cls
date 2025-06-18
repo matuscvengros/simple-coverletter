@@ -181,7 +181,7 @@
 \newcommand*{\makeclsignature}{%
 	\vspace*{1cm}
 	\raggedright%
-	{\small\fontlight Sincerely,\\[0.5em]}
+	{\small\fontlight Sincerely,\\[1em]}
 	{\small\fontlight\printname}
 }
 
